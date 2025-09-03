@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vd;
+    display: flex;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #4A6133;
+    display: flex;
+    align-items: center;
+}
+
+.logo_univille {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.link_pagina {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.titulos_header {
+    width: 40%;
+    display: flex;
+    margin-left: 15%;
+    justify-content: space-between;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    gap: 20px;
+}
+
+.btn_header {
+    width: 120px;
+    height: 30px;
+    background-color: #EBEFE7;
+    color: #5A6550;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn_header:hover {
+    background-color: #ebefe7d5;
+}
+
+.link_pagina:hover {
+    color: #ebefe7d5;
+}
