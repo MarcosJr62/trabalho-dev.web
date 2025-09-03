@@ -7,7 +7,10 @@
 body {
     height: 100vd;
     display: flex;
+    flex-direction: column;
 }
+
+/* HEADER */
 
 header {
     height: 100px;
