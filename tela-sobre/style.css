@@ -101,3 +101,35 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
+.missao-visao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.caixa-verde {
+  border: 26px solid #849175;
+  border-radius: 12px;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.caixa-verde .conteudo {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+.caixa-verde h3 {
+  color: #849175;
+  margin-bottom: 8px;
+}
+
+.caixa-verde p {
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.5;
+}
