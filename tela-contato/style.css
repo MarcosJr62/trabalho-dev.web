@@ -24,3 +24,24 @@ header h1 { /* título principal do cabeçalho */
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+main { /* conteúdo principal da página */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+section { /* bloco de conteúdo em formato de card */
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 { /* títulos */
+  margin-top: 0;
+  text-align: center;
+}
