@@ -77,3 +77,27 @@ body {
   margin-bottom: 40px;
   font-size: 0.95rem;
 }
+
+.historia {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.historia h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.historia p {
+  margin-bottom: 15px;
+}
+
+.btn-historia {
+  background: #849175;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
