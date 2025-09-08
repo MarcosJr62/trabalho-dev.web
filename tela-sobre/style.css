@@ -61,3 +61,19 @@ body {
   border: 2px solid #fff;
   color: #4A6133;
 }
+
+.container {
+  padding: 100px 10% 40px;
+  text-align: center;
+}
+
+.container h1 {
+  color: #4A6133;
+  margin-bottom: 10px;
+}
+
+.container .sub {
+  color: #777;
+  margin-bottom: 40px;
+  font-size: 0.95rem;
+}
