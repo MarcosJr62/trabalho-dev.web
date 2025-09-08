@@ -1,0 +1,77 @@
+:root {
+  --verde-primario: #4A6133;
+  --fundo: #f9fafb;
+  --cinza-texto: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--fundo);
+  color: var(--cinza-texto);
+  line-height: 1.6;
+  padding-top: 90px;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--verde-primario);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.3rem;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.circulo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  color: #4A6133;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.circulo:hover {
+  background-color: #729b4a;
+  color: #fff;
+}
