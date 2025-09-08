@@ -1,7 +1,26 @@
-body {
-  font-family: Arial, sans-serif;
+body { /* estilos geral da página */
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
   color: #515D47;
+}
+
+header { /* cabeçalho da página */
+  background: #4A6133; 
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;  
+  gap: 15px;            
+}
+
+.logo { 
+  height: 70px; 
+}
+
+header h1 { /* título principal do cabeçalho */
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
