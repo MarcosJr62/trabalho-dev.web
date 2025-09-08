@@ -1,0 +1,282 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Adicionado para melhor controle de layout */
+            font-family: "Inter", sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column; /* Faz os itens empilharem verticalmente */
+            min-height: 100vh; /* Garante que o body ocupe a altura toda da tela */
+            background-color: var(--cor-fundo);
+        }
+
+        header {
+            height: 100px;
+            width: 100%;
+            background-color: #4A6133;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0; /* Impede que o header encolha */
+        }
+
+        .logo_univille {
+            margin-left: 30px;
+            cursor: pointer;
+        }
+
+        .link_pagina {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .titulos_header {
+            width: 40%;
+            display: flex;
+            margin-left: 15%;
+            justify-content: space-between;
+        }
+
+        .buttoms {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 15%;
+            gap: 20px;
+        }
+
+        .btn_header {
+            width: 120px;
+            height: 30px;
+            background-color: #EBEFE7;
+            color: #5A6550;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .btn_header:hover {
+            background-color: #ebefe7d5;
+        }
+
+        .link_pagina:hover {
+            color: #ebefe7d5;
+        }
+
+        /* --- CÓDIGO DA PÁGINA DE PERFIL (ADAPTADO) --- */
+
+        /* --- CONFIGURAÇÕES GLOBAIS E VARIÁVEIS --- */
+        :root {
+            --cor-principal-verde: #4A6133; /* Cor atualizada do seu header */
+            --cor-fundo: #F8F9FA;
+            --cor-texto-principal: #212529;
+            --cor-texto-secundario: #6C757D;
+            --cor-branco: #FFFFFF;
+            --cor-borda: #E9ECEF;
+        }
+
+        /* --- CONTAINER PRINCIPAL --- */
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            flex-grow: 1; /* Faz o container crescer e ocupar o espaço disponível */
+        }
+
+        /* --- CABEÇALHO DA PÁGINA ("Meu Perfil") --- */
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .page-header p {
+            color: var(--cor-texto-secundario);
+        }
+        
+        .edit-button {
+            background-color: var(--cor-principal-verde);
+            color: var(--cor-branco);
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 1.25rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background-color 0.2s;
+        }
+
+        .edit-button:hover {
+            background-color: #3b4d28; /* Escurecendo o tom do hover */
+        }
+        
+        .edit-button svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* --- LAYOUT PRINCIPAL (2 COLUNAS) --- */
+        .profile-layout {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .right-column {
+            flex: 2;
+        }
+        
+        /* --- ESTILO DOS CARDS --- */
+        .card {
+            background-color: var(--cor-branco);
+            border: 1px solid var(--cor-borda);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        /* --- COLUNA DA ESQUERDA --- */
+        .profile-summary {
+            text-align: center;
+        }
+        
+        .profile-picture {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: var(--cor-principal-verde);
+            color: var(--cor-branco);
+            font-size: 4rem;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 1rem auto;
+            position: relative;
+        }
+
+        .camera-icon {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background-color: var(--cor-branco);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--cor-borda);
+            cursor: pointer;
+        }
+        
+        .camera-icon svg {
+             width: 20px;
+             height: 20px;
+             fill: var(--cor-texto-principal);
+        }
+
+        .profile-summary h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .profile-summary p {
+            color: var(--cor-texto-secundario);
+        }
+
+        .quick-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .quick-info ul {
+            list-style: none;
+        }
+        
+        .quick-info li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            color: var(--cor-texto-secundario);
+            font-size: 0.9rem;
+        }
+
+        .quick-info li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .quick-info svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--cor-texto-secundario);
+        }
+
+        /* --- COLUNA DA DIREITA --- */
+        .personal-data .card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .personal-data .card-header svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--cor-texto-secundario);
+        }
+
+        .personal-data .card-header h3 {
+            font-size: 1.25rem;
+            margin: 0;
+        }
+
+        .personal-data .card-header p {
+            margin: 0;
+            color: var(--cor-texto-secundario);
+        }
+        
+        .data-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        
+        .data-item label {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--cor-texto-secundario);
+            margin-bottom: 0.25rem;
+        }
+
+        .data-item p {
+            font-weight: 500;
+        }
+        
+        .data-divider {
+            border: 0;
+            border-top: 1px solid var(--cor-borda);
+            margin: 2rem 0;
+        }
