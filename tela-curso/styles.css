@@ -1,56 +1,51 @@
-*{
-
+  * {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-
-}
-
-body{
-
+  }
+  
+  body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-
-}
-
-/* navbar */
-
-header {
+  }
+  
+  /* navbar */
+  header {
     height: 100px;
     width: 100%;
     background-color: #4A6133;
     display: flex;
     align-items: center;
-}
-
-.logo_univille {
+  }
+  
+  .logo_univille {
     margin-left: 30px;
     cursor: pointer;
-}
-
-.link_pagina {
+  }
+  
+  .link_pagina {
     font-size: 16px;
     font-weight: bold;
     color: white;
     text-decoration: none;
-}
-
-.titulos_header {
+  }
+  
+  .titulos_header {
     width: 40%;
     display: flex;
     margin-left: 15%;
     justify-content: space-between;
-}
-
-.buttoms {
+  }
+  
+  .buttoms {
     display: flex;
     justify-content: space-between;
     margin-left: 15%;
     gap: 20px;
-}
-
-.btn_header {
+  }
+  
+  .btn_header {
     width: 120px;
     height: 30px;
     background-color: #EBEFE7;
@@ -61,194 +56,158 @@ header {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
-}
-
-.btn_header:hover {
+  }
+  
+  .btn_header:hover {
     background-color: #ebefe7d5;
-}
-
-.link_pagina:hover {
+  }
+  
+  .link_pagina:hover {
     color: #ebefe7d5;
-}
-
-/* fim_navbar
------------------------------------ */
-
-/* inicio_tela_perfil */
-
-.div_tela_cursos{
-
+  }
+  /* fim_navbar ----------------------------------- */
+  
+  /* cursos */
+  .tela_cursos {
     width: 90%;
     max-width: 1000px;
-    padding: 20px;
-
-}
-
-.div_topo{
-
-    font: bold;
+    margin: 40px auto;
+  }
+  
+  .div_topo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .div_topo h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .texto_topo {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .div_categorias {
     display: flex;
-    justify-content: center; 
-    gap: 15px; 
-
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
     margin-top: 20px;
-
-}
-
-.texto_topo{
-
-    color: black;
-
-}
-
-.div_categorias{
-
-    display: flex;
-    justify-content: center; 
-    gap: 15px; 
-    flex-wrap: wrap; 
-    margin-top: 20px;
-
-}
-
-.div_alternativas_preta{
-
-    background-color: rgb(0, 0, 0);
+  }
+  
+  .div_alternativas_preta {
+    background-color: black;
     color: white;
     width: 125px;
     height: 35px;
     border: 1px solid black;
     border-radius: 25px;
-    text-align: center;
-
-}
-
-.div_alternativas_branca{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .div_alternativas_branca {
     background-color: white;
+    color: black;
     width: 125px;
     height: 35px;
     border: 1px solid black;
     border-radius: 25px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .cursos {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+  }
+  
 
-}
+  .div_curso {
+      background: white;
+      border-radius: 15px;
+      border: 1px solid #ddd;
+      padding: 20px;
+  }
+  
+  .topo_engenharia {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
 
-.cursos {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-
-.engenharia{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-.medicina{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-.admin{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-.psico{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-.arquitetura{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-.direito{
-
-    background: white;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    padding: 20px;
-
-}
-
-
-.topo_card {
+  .topo_medicina {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     font-size: 14px;
-}
+  }
 
-.categoria {
-    color: white;
-    padding: 4px 10px;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.tipo {
-    background: #f0f0f0;
-    padding: 4px 10px;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.info {
-    color: gray;
+  .topo_admin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
     font-size: 14px;
-    margin: 8px 0;
+  }
+
+  .topo_psico {
     display: flex;
-}
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
 
-.disciplinas {
+  .topo_arquitetura {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 8px 0;
-}
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
 
-.disciplinas p {
-    background: #f0f0f0;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 12px;
-}
-
-.saiba{
-
-    border-radius: 15px;
-    border: 1px solid #ddd;
-    background-color: #f0f0f0;
-    text-align: center;
-
-}
+  .topo_direito {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .categoria {
+      color: white;
+      padding: 4px 10px;
+      border-radius: 15px;
+      font-size: 12px;
+  }
+  
+  .tipo {
+      background: #f0f0f0;
+      padding: 4px 10px;
+      border-radius: 15px;
+      font-size: 12px;
+  }
+  
+  h3 {
+      margin: 10px 0;
+      font-size: 18px;
+  }
+  
+  .info {
+      color: gray;
+      font-size: 14px;
+      margin: 8px 0;
+  }
+  
+  .disciplinas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 8px 0;
+  }
