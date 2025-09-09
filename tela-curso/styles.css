@@ -87,6 +87,11 @@ header {
 .div_topo{
 
     font: bold;
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+
+    margin-top: 20px;
 
 }
 
@@ -99,6 +104,10 @@ header {
 .div_categorias{
 
     display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
 
 }
 
@@ -121,6 +130,125 @@ header {
     height: 35px;
     border: 1px solid black;
     border-radius: 25px;
+    text-align: center;
+
+}
+
+.cursos {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+.engenharia{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.medicina{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.admin{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.psico{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.arquitetura{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.direito{
+
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+
+.topo_card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.categoria {
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.tipo {
+    background: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info {
+    color: gray;
+    font-size: 14px;
+    margin: 8px 0;
+    display: flex;
+}
+
+.disciplinas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.disciplinas p {
+    background: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.saiba{
+
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
     text-align: center;
 
 }
