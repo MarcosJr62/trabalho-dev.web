@@ -97,6 +97,14 @@ header {
   margin-top: 20px;
 }
 
+.categorias{
+
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .div_alternativas_preta {
   background-color: black;
   color: white;
