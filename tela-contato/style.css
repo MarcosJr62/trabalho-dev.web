@@ -45,3 +45,30 @@ h1, h2 { /* títulos */
   margin-top: 0;
   text-align: center;
 }
+
+form { /* estrutura do formulário */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+label { /* rótulos dos campos */
+  font-weight: bold;
+}
+
+input, textarea { /* campos de texto */
+  font-family: "Inter", sans-serif;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus { /* efeito de foco nos campos */
+  outline: none;
+  border: 1px solid #008037;
+  box-shadow: 0 0 5px rgba(0, 128, 55, 0.3);
+}
