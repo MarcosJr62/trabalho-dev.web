@@ -1,213 +1,249 @@
-  * {
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* navbar */
-  header {
-    height: 100px;
-    width: 100%;
-    background-color: #4A6133;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo_univille {
-    margin-left: 30px;
-    cursor: pointer;
-  }
-  
-  .link_pagina {
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .titulos_header {
-    width: 40%;
-    display: flex;
-    margin-left: 15%;
-    justify-content: space-between;
-  }
-  
-  .buttoms {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 15%;
-    gap: 20px;
-  }
-  
-  .btn_header {
-    width: 120px;
-    height: 30px;
-    background-color: #EBEFE7;
-    color: #5A6550;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
-  .btn_header:hover {
-    background-color: #ebefe7d5;
-  }
-  
-  .link_pagina:hover {
-    color: #ebefe7d5;
-  }
-  /* fim_navbar ----------------------------------- */
-  
-  /* cursos */
-  .tela_cursos {
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto;
-  }
-  
-  .div_topo {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .div_topo h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .texto_topo {
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .div_categorias {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-  
-  .div_alternativas_preta {
-    background-color: black;
-    color: white;
-    width: 125px;
-    height: 35px;
-    border: 1px solid black;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-  }
-  
-  .div_alternativas_branca {
-    background-color: white;
-    color: black;
-    width: 125px;
-    height: 35px;
-    border: 1px solid black;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-  }
-  
-  .cursos {
-      margin-top: 30px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 25px;
-  }
-  
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .div_curso {
-      background: white;
-      border-radius: 15px;
-      border: 1px solid #ddd;
-      padding: 20px;
-  }
-  
-  .topo_engenharia {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      font-size: 14px;
-  }
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  .topo_medicina {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
+/* navbar */
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #4A6133;
+  display: flex;
+  align-items: center;
+}
 
-  .topo_admin {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
+.logo_univille {
+  margin-left: 30px;
+  cursor: pointer;
+}
 
-  .topo_psico {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
+.link_pagina {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
 
-  .topo_arquitetura {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
+.titulos_header {
+  width: 40%;
+  display: flex;
+  margin-left: 15%;
+  justify-content: space-between;
+}
 
-  .topo_direito {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
-  
-  .categoria {
-      color: white;
-      padding: 4px 10px;
-      border-radius: 15px;
-      font-size: 12px;
-  }
-  
-  .tipo {
-      background: #f0f0f0;
-      padding: 4px 10px;
-      border-radius: 15px;
-      font-size: 12px;
-  }
-  
-  h3 {
-      margin: 10px 0;
-      font-size: 18px;
-  }
-  
-  .info {
-      color: gray;
-      font-size: 14px;
-      margin: 8px 0;
-  }
-  
-  .disciplinas {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 8px 0;
-  }
+.buttoms {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  gap: 20px;
+}
+
+.botao_navbar {
+  width: 120px;
+  height: 30px;
+  background-color: #EBEFE7;
+  color: #5A6550;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.botao_navbar:hover {
+  background-color: #ebefe7d5;
+}
+
+.link_pagina:hover {
+  color: #ebefe7d5;
+}
+/* fim_navbar ----------------------------------- */
+
+/* cursos */
+.tela_cursos {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.div_topo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.div_topo h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.texto_topo {
+  font-size: 14px;
+  color: #333;
+}
+
+.div_categorias {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.div_alternativas_preta {
+  background-color: black;
+  color: white;
+  width: 125px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.div_alternativas_branca {
+  background-color: white;
+  color: black;
+  width: 125px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cursos {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.div_curso {
+  background: white;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* topos coloridos */
+.topo_engenharia {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #007BFF; /* Azul */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.topo_medicina {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #FF4C4C; /* Vermelho */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.topo_admin {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #28A745; /* Verde */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.topo_psico {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #6F42C1; /* Roxo */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.topo_arquitetura {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #FD7E14; /* Laranja */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.topo_direito {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #FFC107; /* Amarelo */
+  color: black;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.tipo {
+  background: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.info {
+  color: gray;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.disciplinas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.botao_saiba {
+  margin-top: 15px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* .botao_saiba:hover {
+  background: #333;
+} */
