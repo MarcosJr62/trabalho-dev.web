@@ -1,3 +1,39 @@
+/*
+Guia de Estilo
+
+- fonte: "Inter", sans-serif
+- cor do texto: #515D47
+- fundo: #FFFFFF
+
+paleta de cores
+- primária: #4A6133 (header)
+- secundária: #008037 (botões, foco)
+- secundária hover: #00662b
+- borda neutra: #CCCCCC
+- sombra: rgba(0,0,0,0.1)
+
+layout
+- header: fundo verde escuro, texto branco, flex, gap 15px
+- logo: 70px (60px mobile)
+- nav: links brancos, bold, sem sublinhado
+- section e card: fundo branco, padding 2rem, radius 10px, sombra leve
+
+tipografia
+- h1: 1.5rem, bold, centralizado
+- h2: centralizado
+
+formulários
+- inputs e textareas: padding 0.75rem, radius 5px, borda #CCC
+- foco: borda verde (#008037) + brilho leve
+- botão: verde médio (#008037), texto branco bold, radius 5px
+- hover → verde escuro (#00662b)
+
+responsividade
+- ≤900px: section máx. 90%
+- ≤600px: header em coluna, form em colunas, logo 60px
+
+*/
+
 body { /* estilos geral da página */
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -86,4 +122,29 @@ button { /* botão de envio */
 
 button:hover { /* estado hover do botão */
   background: #00662b; 
+}
+
+/* responsividade */
+
+@media (max-width: 900px) {
+  section {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .logo {
+    height: 60px;
+  }
 }

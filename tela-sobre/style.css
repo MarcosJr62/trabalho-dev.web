@@ -1,3 +1,38 @@
+/*
+Paleta de Cores
+
+Verde Primário: #4A6133 - Usado na barra superior e nos títulos principais.
+Verde Secundário: #849175 - Utilizado nos botões e nas bordas.
+Branco: #FFFFFF - Usado para o texto da barra superior e como fundo para botões e caixas de conteúdo.
+Cinza Claro: #F9F9F9 - A cor de fundo principal do corpo da página.
+Cinza Escuro: #333333 - Usado para o texto geral.
+Cinza Médio: #777777 - Usado para subtítulos.
+Cinza Pedra: #555555 - Usado para o texto dentro das caixas de conteúdo. 
+
+Tipografia
+
+A fonte principal do site é Arial, com um fallback para qualquer fonte sans-serif genérica.
+Títulos (h1): Use o Verde Primário (#4A6133).
+Subtítulos (.sub): Use um Cinza Médio (#777777) e um tamanho de fonte ligeiramente menor.
+Texto do Corpo (p): Use um Cinza Escuro (#333333), com uma altura de linha de 1.6 para facilitar a leitura.
+Links (a): No menu superior, os links são brancos (#FFFFFF) sem sublinhado por padrão. Um sublinhado sutil aparece ao passar o mouse.
+
+Layout e Espaçamento
+
+O design usa um modelo de caixa flexível e responsivo.
+Margens e Preenchimento: Todos os elementos têm suas margens e preenchimentos padrão redefinidos (margin: 0; padding: 0;).
+Contêiner: A área de conteúdo principal é centralizada e tem um padding de 10% nas laterais e preenchimento superior/inferior para manter o conteúdo afastado das bordas da tela.
+Barra Superior: Este é um elemento fixo no topo, com 70px de altura e preenchimento nas laterais. Ele usa um layout flexível (display: flex) para alinhar seus elementos.
+Design Responsivo: O layout se ajusta para telas menores. O contêiner de conteúdo principal e o menu mudam para um layout de coluna (flex-direction: column) em telas menores que 768px.
+
+Botões e Componentes
+
+Botões de Login e Inscrição: Esses botões têm um fundo branco limpo e cantos arredondados (border-radius: 6px). Eles usam uma borda sólida branca de 2px.
+Botão Primário (.btn-historia): Este botão usa o Verde Secundário (#849175) para o fundo, com texto branco. Ele tem cantos ligeiramente mais arredondados (border-radius: 8px).
+Caixas de Conteúdo (.caixa-verde): Essas caixas têm uma borda grossa (26px) do Verde Secundário (#849175). O conteúdo interno tem um fundo branco e está contido em um preenchimento de 20px.
+Cartões (.valor-card): Estes são cartões simples com fundo branco, cantos arredondados (border-radius: 12px) e uma sombra sutil (box-shadow).
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -147,4 +182,18 @@ body {
   padding: 20px;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .menu {
+    width: 100%;
+  }
 }
