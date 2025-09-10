@@ -72,3 +72,18 @@ textarea:focus { /* efeito de foco nos campos */
   border: 1px solid #008037;
   box-shadow: 0 0 5px rgba(0, 128, 55, 0.3);
 }
+
+button { /* botão de envio */
+  background: #008037; 
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover { /* estado hover do botão */
+  background: #00662b; 
+}
