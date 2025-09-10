@@ -72,6 +72,14 @@ header {
 }
 
 .main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,14 +104,14 @@ header {
 .text{
     color: white;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-weight: 350;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .buttoms_middle {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,15 +160,16 @@ header {
 
 .info{
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    width: 600px;
+    width: 750px;
 }
 
 .title_info {
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: white;
 }
@@ -173,9 +182,17 @@ header {
     color: white;
 }
 
-.numbers {
+.con_info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 300px;
 }
+
+.con_info .material-symbols-outlined {
+    font-size: 48px;
+    color: white;
+  }
+  
+
