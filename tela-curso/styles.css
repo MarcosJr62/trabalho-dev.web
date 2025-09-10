@@ -137,13 +137,13 @@ header {
   padding: 20px;
 }
 
-/* topos coloridos */
+
 .topo_engenharia {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #007BFF; /* Azul */
+  background-color: #007BFF; 
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -154,7 +154,7 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #FF4C4C; /* Vermelho */
+  background-color: #FF4C4C; 
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -165,7 +165,7 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #28A745; /* Verde */
+  background-color: #28A745; 
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -176,7 +176,7 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #6F42C1; /* Roxo */
+  background-color: #6F42C1; 
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -187,7 +187,7 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #FD7E14; /* Laranja */
+  background-color: #FD7E14; 
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -198,7 +198,7 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #FFC107; /* Amarelo */
+  background-color: #FFC107; 
   color: black;
   padding: 5px 10px;
   border-radius: 8px;
@@ -244,6 +244,6 @@ h3 {
   width: 100%;
 }
 
-/* .botao_saiba:hover {
+.botao_saiba:hover {
   background: #333;
-} */
+}
