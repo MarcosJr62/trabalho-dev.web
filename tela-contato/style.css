@@ -123,3 +123,28 @@ button { /* botão de envio */
 button:hover { /* estado hover do botão */
   background: #00662b; 
 }
+
+/* responsividade */
+
+@media (max-width: 900px) {
+  section {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .logo {
+    height: 60px;
+  }
+}
