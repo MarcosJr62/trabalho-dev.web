@@ -75,3 +75,81 @@ header h1 {
   background-color: #729b4a;
   color: #fff;
 }
+
+/* Bem vindo */
+.container {
+padding: 20px;
+}
+
+.welcome {
+background: #4A6133;
+color: white;
+padding: 10px;
+border-radius: 18px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.welcome h2{
+font-size: 20px;
+color: #ffffff;
+padding-left: 15px;
+
+}
+.welcome p{
+font-size: 14px;
+color: #ffffff;
+padding-left: 15px;
+
+}
+.welcome small{
+font-size: 16px;
+color: #D2D2D2;
+padding-right: 35px;
+padding-bottom: 5px;
+
+}
+
+.hora{
+font-size: 16px;
+color: #ffffff;
+padding-right: 35px;
+padding-bottom: 5px;
+
+}
+
+/* Cards principais */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  padding: 28px 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card i {
+  font-size: 26px;
+  color: #4A6133;
+  margin-bottom: 10px;
+}
+
+.card span {
+  display: block;
+  font-weight: 600;
+  color: #4A6133;
+}
+
+.card:hover {
+  background: #ffffff;
+  color: white;
+}
