@@ -1,0 +1,228 @@
+:root {
+    --verde-primario: #4A6133;
+    --fundo: #f9fafb;
+    --cinza-texto: #555;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--fundo);
+    color: var(--cinza-texto);
+    line-height: 1.6;
+    padding-top: 90px;
+  }
+  
+  /* Header */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--verde-primario);
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-size: 1.3rem;
+  }
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .circulo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    color: #4A6133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .circulo:hover {
+    background-color: #729b4a;
+    color: #fff;
+  }
+  
+  /* Layout principal */
+  .container {
+    display: flex;
+    min-height: 90vh;
+  }
+  
+  /* Sidebar */
+  aside {
+    background: #fff;
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  aside h2 {
+    margin-top: 0;
+    color: #2f4f2f;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+  aside a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  aside a:hover {
+    background: #2f4f2f;
+    color: white;
+  }
+  
+  /* =====================
+     Conteúdo Principal
+  ===================== */
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  main h2, main h3, main h4 {
+    color: #2f4f2f;
+  }
+  
+  /* Barra de Progresso */
+  .barra-progresso {
+    background: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    margin: 10px 0;
+  }
+  
+  .progresso {
+    background: #2f4f2f;
+    width: 12%; /* Exemplo: 245MB de 2GB */
+    height: 100%;
+    border-radius: 10px;
+  }
+
+/* Grid de pastas/arquivos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    transition: 0.2s;
+    text-decoration: none;
+    color: inherit;
+
+  }
+  
+  .card a {
+    display:block;
+    text-decoration: none;
+    color: inherit;
+    height: 150%;
+  } 
+
+  .card:hover {
+    border-color: #2f4f2f;
+    box-shadow: 0 0 5px rgba(47,79,47,0.3);
+    cursor: pointer;
+  }
+  
+  
+  .card svg {
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .card h4 {
+    margin: 5px 0;
+    color: #2f4f2f;
+  }
+  
+  .card p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  /* =====================
+     Rodapé
+  ===================== */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #2f4f2f;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* =====================
+     Responsividade
+  ===================== */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    aside {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }

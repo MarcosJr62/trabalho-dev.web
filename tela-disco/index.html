@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal do Aluno</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logouniville.png" alt="Logo da Univille">
+      <h1>Portal do Aluno</h1>
+    </div>
+    <div class="user-actions">
+      <div class="notificacoes">
+        <i class="fas fa-bell"></i>
+      </div>
+      <div class="circle-container">
+        <div class="circulo">JS</div>
+      </div>
+      <span class="user-name">João Silva</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <section>
+        <h2>Disco Virtual</h2>
+        <p>Gerencie seus arquivos e documentos</p>
+
+        <p><strong>Espaço utilizado:</strong> 245 MB de 2 GB</p>
+        <div class="barra-progresso">
+          <div class="progresso"></div>
+        </div>
+
+        <form>
+          <label for="busca">Buscar:</label>
+          <input type="text" id="busca" placeholder="Buscar arquivos...">
+        </form>
+      </section>
+
+      <section>
+        <h3>Pastas</h3>
+        <div class="grid">
+          <!-- Simulação de pastas (no futuro viria do usuário) -->
+          <div class="card">
+            <a href="documentos.html" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="#2f4f2f" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M3 7a2 2 0 0 1 2-2h3l2 2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+                  </svg>
+             <h4>Documentos Pessoais</h4>
+             <p>12 itens</p>
+             <p>15-08-2024</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="trabalhos.html" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="#2f4f2f" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M3 7a2 2 0 0 1 2-2h3l2 2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+                  </svg>
+             <h4>Trabalhos Acadêmicos</h4>
+             <p>8 itens</p>
+             <p>14-08-2024</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="trabalhos.html" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="#2f4f2f" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M3 7a2 2 0 0 1 2-2h3l2 2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+              </svg>
+            <h4>Trabalho Final</h4>
+            <p>15 itens</p>
+            <p>13-08-2024</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Arquivos Recentes</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>📄 Curriculo.pdf</h4>
+            <p>2.3 MB</p>
+            <p>15-08-2024</p>
+          </div>
+          <div class="card">
+            <h4>🖼️ Foto_Formatura.jpg</h4>
+            <p>5.1 MB</p>
+            <p>14-08-2024</p>
+          </div>
+          <div class="card">
+            <h4>🖼️ Foto_Projeto.jpg</h4>
+            <p>8.7 MB</p>
+            <p>13-08-2024</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Portal do Aluno</p>
+  </footer>
+</body>
+</html>
