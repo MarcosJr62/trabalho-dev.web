@@ -210,3 +210,78 @@ padding-bottom: 5px;
   color:#777;
   font-weight: 400;
 }
+
+/* Comunicados */
+.comunicados div {
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.red {
+  background: #f9d6d559;
+  color: #842029;
+}
+
+.red:hover {
+  background: #f2b8b7;
+}
+
+.yellow {
+  background: #fff9db;
+  color: #664d03;
+}
+
+.yellow:hover {
+  background: #fff3b0;
+}
+
+.blue {
+  background: #d8efff;
+  color: #084c61;
+}
+
+.blue:hover {
+  background: #a9d4ff;
+}
+
+/* Mural com recados */
+.box p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.box p b {
+  color: #3e5931;
+}
+
+.mural-item {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #F3F2F2;
+  cursor: pointer;
+}
+
+.mural-item:last-child {
+  border-bottom: none;
+}
+
+.mural-item small {
+  color:#777;
+  font-weight: 400;
+}
+
