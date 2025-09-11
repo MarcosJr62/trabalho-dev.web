@@ -161,7 +161,6 @@ header {
 .info{
     display: flex;
     margin-top: 50px;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     width: 750px;
