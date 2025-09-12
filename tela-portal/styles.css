@@ -285,3 +285,26 @@ padding-bottom: 5px;
   font-weight: 400;
 }
 
+/* Resumo acadêmico */
+.box p {
+  font-size: 1.1rem;
+}
+
+.resumo-item {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.resumo-item:last-child {
+  border-bottom: none;
+}
