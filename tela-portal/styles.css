@@ -371,3 +371,39 @@ padding-bottom: 5px;
   border-bottom: none;
 }
 
+/* Responsividade */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding: 15px 20px;
+  }
+
+  .container {
+    padding: 0 15px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circulo {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  .welcome h2 {
+    font-size: 1.3rem;
+  }
+}
+
+
