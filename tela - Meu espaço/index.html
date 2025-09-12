@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> 
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <img src="image/logouniville.png" alt="Univille Logo" />
+            <img src="/image/logo_univille.png" alt="Univille Logo" />
             <span>Meu Espaço</span> 
         </div>
         <div class="search-bar">
-            <input type="search" placeholder="Buscar disciplinas, materiais." />
-            <button aria-label="Buscar">🔍</button>
+            <div class="input">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="Buscar disciplinas, materiais..." />
+            </div>
         </div>
         <div class="header-right">
             <button class="notification-btn" aria-label="Notificações">
                 <i class="fas fa-bell"></i><span class="notification-count">3</span>
             </button>
-            <div class="user-badge">JS</div>
-            <span class="username">João Silva</span>
+                <a style="text-decoration: none" href="/tela-perfil/index.html"><div class="circulo">JS</div></a>
+                <a style="text-decoration: none; color:white" href="/tela-perfil/index.html"><span class="user-name">João Silva</span></a>
         </div>
     </header>
     
