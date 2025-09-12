@@ -6,64 +6,75 @@ body {
   align-items: center;
   background: linear-gradient(to bottom left, #96a085, #f4ede8);
   font-family: "Inter", sans-serif;
+  margin: 0;
 }
 
 .div_login {
   position: relative;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid white;
-  border-radius: 10px;
-  padding: 60px 30px 30px; /* espaço para o ícone */
+  border-radius: 12px;
+  padding: 100px 30px 90px;
   width: 350px;
   text-align: center;
   backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .icone-usuario {
   position: absolute;
-  top: 180px;
+ 
+  bottom: 375px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .icone-usuario img {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: white;
   padding: 5px;
+  box-shadow: 0 2px 10px rgb(255, 255, 255);
 }
 
 .info {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 10px;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .info input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
 }
 
 .lembrar {
   display: flex;
   align-items: center;
+  gap: 5px;
   margin-bottom: 20px;
   font-size: 14px;
-}
-
-.lembrar input {
-  margin-right: 5px;
+  margin-top: 25px;
 }
 
 button {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: none;
   background-color: white;
   font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 30px;
 }
 
 button:hover {
@@ -71,5 +82,62 @@ button:hover {
 }
 
 footer {
-  margin-top: 20px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
+footer img {
+  width: 220px;
+  height: auto;
+}
+
+/* media query*/
+@media (max-width: 768px) {
+  .div_login {
+    width: 80%;
+    padding: 50px 20px 20px;
+  }
+
+  .icone-usuario img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .info input {
+    font-size: 13px;
+  }
+
+  footer img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .div_login {
+    width: 90%;
+    padding: 40px 15px 15px;
+  }
+
+  .icone-usuario {
+    top: 120px;
+  }
+
+  .icone-usuario img {
+    width: 65px;
+    height: 65px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .info {
+    padding: 6px 8px;
+  }
+
+  footer img {
+    width: 90px;
+  }
 }

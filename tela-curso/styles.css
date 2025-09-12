@@ -10,11 +10,12 @@ body {
   flex-direction: column;
 }
 
-/* navbar */
+/* HEADER ATUALIZADO */
 header {
-  height: 100px;
   width: 100%;
+  height: 100px;
   background-color: #4A6133;
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -32,17 +33,22 @@ header {
 }
 
 .titulos_header {
-  width: 40%;
+  width: 100%;
   display: flex;
-  margin-left: 15%;
-  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
 }
 
 .buttoms {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 15%;
-  gap: 20px;
+  display: flex;                
+  justify-content: center;      
+  align-items: center;          
+  flex-wrap: wrap;              
+  gap: 10px;                  
+  width: 100%;                 
+  max-width: 400px;
 }
 
 .botao_navbar {
@@ -56,6 +62,10 @@ header {
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
+  display: flex;           
+  align-items: center;     
+  justify-content: center;  
+  text-align: center;  
 }
 
 .botao_navbar:hover {
@@ -65,7 +75,76 @@ header {
 .link_pagina:hover {
   color: #ebefe7d5;
 }
-/* fim_navbar ----------------------------------- */
+
+/* ---------------- Responsividade header ---------------- */
+@media (max-width: 1024px) {
+  .titulos_header {
+    gap: 25px;
+  }
+
+  .buttoms {
+    width: 30%;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo_univille {
+    margin: 10px;
+  }
+
+  .titulos_header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    gap: 25px;
+  }
+  
+  .link_pagina {
+    font-size: 14px;
+  }
+  
+  .buttoms {
+    margin: 20px;
+  }
+
+  .botao_navbar {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo_univille {
+    width: 60px;
+    height: auto;
+  }
+
+  .botao_navbar {
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+  }
+  
+  .buttoms {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+  }
+
+  .titulos_header {
+    gap: 10px;
+  }
+
+  .link_pagina {
+    font-size: 14px;
+  }
+}
 
 /* cursos */
 .tela_cursos {
@@ -97,12 +176,10 @@ header {
   margin-top: 20px;
 }
 
-.categorias{
-
+.categorias {
   width: auto;
   display: flex;
   justify-content: space-between;
-
 }
 
 .div_alternativas_preta {
@@ -145,72 +222,27 @@ header {
   padding: 20px;
 }
 
-
-.topo_engenharia {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
-  background-color: #007BFF; 
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
-.topo_medicina {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
-  background-color: #FF4C4C; 
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
-.topo_admin {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
-  background-color: #28A745; 
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
-.topo_psico {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
-  background-color: #6F42C1; 
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
-.topo_arquitetura {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 14px;
-  background-color: #FD7E14; 
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
+.topo_engenharia,
+.topo_medicina,
+.topo_admin,
+.topo_psico,
+.topo_arquitetura,
 .topo_direito {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
   font-size: 14px;
-  background-color: #FFC107; 
-  color: black;
+  color: white;
   padding: 5px 10px;
   border-radius: 8px;
 }
+
+.topo_engenharia { background-color: #007BFF; }
+.topo_medicina { background-color: #FF4C4C; }
+.topo_admin { background-color: #28A745; }
+.topo_psico { background-color: #6F42C1; }
+.topo_arquitetura { background-color: #FD7E14; }
+.topo_direito { background-color: #FFC107; color: black; }
 
 .tipo {
   background: #f0f0f0;
