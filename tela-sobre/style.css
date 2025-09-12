@@ -46,7 +46,149 @@ body {
   color: #333;
 }
 
-.top-bar {
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #4A6133;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo_univille {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.pages_link {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.header_titles {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.buttoms {
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    flex-wrap: wrap;              
+    gap: 10px;                  
+    width: 100%;                 
+    max-width: 400px;
+}
+
+.btn_header {
+    width: 120px;
+    height: 30px;
+    background-color: #EBEFE7;
+    color: #5A6550;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;           
+    align-items: center;     
+    justify-content: center;  
+    text-align: center;  
+}
+
+.btn_header:hover {
+    background-color: #ebefe7d5;
+}
+
+.pages_link:hover {
+    color: #ebefe7d5;
+}
+
+/* ---------------- Responsividade header ---------------- */
+
+@media (max-width: 1024px) {
+    .header_titles {
+
+        gap: 25px;
+    }
+
+    .buttoms {
+        width: 30%;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo_univille {
+        margin: 10px;
+    }
+
+    .header_titles {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 25px;
+    }
+    
+    .pages_link {
+        font-size: 14px;
+    }
+    
+    .buttoms {
+        margin: 20px;
+    }
+
+    .btn_header {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_univille {
+        width: 60px;
+        height: auto;
+    }
+
+    .btn_header {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+    
+    .buttoms {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .header_titles {
+        gap: 10px;
+    }
+
+    .pages_link {
+        font-size: 14px;
+    }
+
+}
+
+
+/* .top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +237,7 @@ body {
   background: #fff;
   border: 2px solid #fff;
   color: #4A6133;
-}
+} */
 
 .container {
   padding: 100px 10% 40px;
