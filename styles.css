@@ -17,9 +17,10 @@ body {
 /* HEADER */
 
 header {
-    height: 100px;
     width: 100%;
+    height: 100px;
     background-color: #4A6133;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
@@ -37,17 +38,22 @@ header {
 }
 
 .header_titles {
-    width: 40%;
+    width: 100%;
     display: flex;
-    margin-left: 15%;
-    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
 }
 
 .buttoms {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 15%;
-    gap: 20px;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    flex-wrap: wrap;              
+    gap: 10px;                  
+    width: 100%;                 
+    max-width: 400px;
 }
 
 .btn_header {
@@ -61,6 +67,10 @@ header {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+    display: flex;           
+    align-items: center;     
+    justify-content: center;  
+    text-align: center;  
 }
 
 .btn_header:hover {
@@ -70,6 +80,83 @@ header {
 .pages_link:hover {
     color: #ebefe7d5;
 }
+
+/* ---------------- Responsividade header ---------------- */
+
+@media (max-width: 1024px) {
+    .header_titles {
+
+        gap: 25px;
+    }
+
+    .buttoms {
+        width: 30%;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo_univille {
+        margin: 10px;
+    }
+
+    .header_titles {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 25px;
+    }
+    
+    .pages_link {
+        font-size: 14px;
+    }
+    
+    .buttoms {
+        margin: 20px;
+    }
+
+    .btn_header {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_univille {
+        width: 60px;
+        height: auto;
+    }
+
+    .btn_header {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+    
+    .buttoms {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .header_titles {
+        gap: 10px;
+    }
+
+    .pages_link {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Tela inicial */
 
 .main {
     flex: 1;
@@ -192,6 +279,122 @@ header {
 .con_info .material-symbols-outlined {
     font-size: 48px;
     color: white;
-  }
+}
   
+/* ---------------- Responsividade main ---------------- */
+@media (max-width: 1024px) {
+
+    .title {
+        font-size: 60px;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+
+    .info {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .buttoms_middle {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .top {
+        width: 90%;
+    }
+    
+    .content {
+        width: 90%;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 55px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+    
+    .buttoms_middle {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn_middle1, .btn_middle2 {
+        max-width: 300px;
+    }
+
+    .info {
+        width: 70%;
+        gap: 30px;
+    }
+
+    .con_info .material-symbols-outlined {
+        font-size: 40px;
+    }
+
+    .title_info {
+        font-size: 30px;
+    }
+
+    .text_info {
+        font-size: 16px
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .text {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .buttoms_middle {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn_middle1, 
+    .btn_middle2 {     
+        max-width: 350px;
+        font-size: 16px;
+    }
+
+    .top {
+        width: 90%;
+    }
+    
+    .content {
+        width: 90%;
+    }
+
+    .info {
+        gap: 5px;
+    }
+
+    .con_info .material-symbols-outlined {
+        font-size: 34px;
+    }
+
+    .title_info {
+        font-size: 20px;
+    }
+
+    .text_info {
+        font-size: 14px
+    }
+}
 
