@@ -31,59 +31,85 @@
         <h1>Inscreva-se em um Curso</h1>
         <div class="container">
             <form action=""></form>
-                <input id="nome" name="nome" type="text" placeholder="Nome Completo" required>
-                <input id="email" name="email" type="email" placeholder="E-mail" required>
-                <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000" required>
-                <select id="curso" name="curso" required>
-                    <option value="curso" disabled selected>Curso</option>
-                    <option value="administracao">Administração</option>
-                    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
-                    <option value="arq-urb">Arquitetura e Urbanismo</option>
-                    <option value="biomedicina">Biomedicina</option>
-                    <option value="ciencias-contabeis">Ciências Contábeis</option>
-                    <option value="ciencia-da-computacao">Ciência da Computação</option>
-                    <option value="design">Design</option>
-                    <option value="direito">Direito</option>
-                    <option value="educacao-fisica">Educação Física</option>
-                    <option value="enfermagem">Enfermagem</option>
-                    <option value="engenharia-ambiental">Engenharia Ambiental</option>
-                    <option value="engenharia-civil">Engenharia Civil</option>
-                    <option value="engenharia-de-producao">Engenharia de Produção</option>
-                    <option value="engenharia-eletrica">Engenharia Elétrica</option>
-                    <option value="engenharia-mecanica">Engenharia Mecânica</option>
-                    <option value="engenharia-quimica">Engenharia Química</option>
-                    <option value="estetica-cosmetica">Estética e Cosmética</option>
-                    <option value="farmacia">Farmácia</option>
-                    <option value="fisioterapia">Fisioterapia</option>
-                    <option value="gastronomia">Gastronomia</option>
-                    <option value="historia">História</option>
-                    <option value="jornalismo">Jornalismo</option>
-                    <option value="letras">Letras</option>
-                    <option value="matematica">Matemática</option>
-                    <option value="medicina">Medicina</option>
-                    <option value="med-veterinaria">Medicina Veterinária</option>
-                    <option value="nutricao">Nutrição</option>
-                    <option value="pedagogia">Pedagogia</option>
-                    <option value="psicologia">Psicologia</option>
-                    <option value="publicidade-propaganda">Publicidade e Propaganda</option>
-                    <option value="quimica">Química</option>
-                    <option value="relacoes-internacionais">Relações Internacionais</option>
-                    <option value="sistemas-informacao">Sistemas de Informação</option>
-                </select>
                 
-                <select id="semestre" name="semestre" required>
-                    <option value="semestre" disabled selected>Período/Semestre</option>
-                    <option value="1_semestre">1º Semestre</option>
-                    <option value="2_semestre">2º Semestre</option>
-                    <option value="3_semestre">3º Semestre</option>
-                    <option value="4_semestre">4º Semestre</option>
-                    <option value="5_semestre">5º Semestre</option>
-                    <option value="6_semestre">6º Semestre</option>
-                    <option value="7_semestre">7º Semestre</option>
-                    <option value="8_semestre">8º Semestre</option>
-                    <option value="9_semestre">9º Semestre</option>
-                    <option value="10_semestre">10º Semestre</option>
-                </select>
+                <div class="con_input">
+                    <span class="material-symbols-outlined">
+                    person
+                    </span>
+                    <input id="nome" name="nome" type="text" placeholder="Nome Completo" required>
+                </div>
+                <div class="con_input">
+                    <span class="material-symbols-outlined">
+                    mail
+                    </span>
+                    <input id="email" name="email" type="email" placeholder="E-mail" required>
+                </div>
+                <div class="con_input">
+                    <span class="material-symbols-outlined">
+                    phone
+                    </span>
+                    <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000" required>
+                </div>
+                <div class="con_input">
+                    <span class="material-symbols-outlined">
+                    school  
+                    </span>
+                    <select id="curso" name="curso" required>
+                        <option value="curso" disabled selected>Curso</option>
+                        <option value="administracao">Administração</option>
+                        <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="arq-urb">Arquitetura e Urbanismo</option>
+                        <option value="biomedicina">Biomedicina</option>
+                        <option value="ciencias-contabeis">Ciências Contábeis</option>
+                        <option value="ciencia-da-computacao">Ciência da Computação</option>
+                        <option value="design">Design</option>
+                        <option value="direito">Direito</option>
+                        <option value="educacao-fisica">Educação Física</option>
+                        <option value="enfermagem">Enfermagem</option>
+                        <option value="engenharia-ambiental">Engenharia Ambiental</option>
+                        <option value="engenharia-civil">Engenharia Civil</option>
+                        <option value="engenharia-de-producao">Engenharia de Produção</option>
+                        <option value="engenharia-eletrica">Engenharia Elétrica</option>
+                        <option value="engenharia-mecanica">Engenharia Mecânica</option>
+                        <option value="engenharia-quimica">Engenharia Química</option>
+                        <option value="estetica-cosmetica">Estética e Cosmética</option>
+                        <option value="farmacia">Farmácia</option>
+                        <option value="fisioterapia">Fisioterapia</option>
+                        <option value="gastronomia">Gastronomia</option>
+                        <option value="historia">História</option>
+                        <option value="jornalismo">Jornalismo</option>
+                        <option value="letras">Letras</option>
+                        <option value="matematica">Matemática</option>
+                        <option value="medicina">Medicina</option>
+                        <option value="med-veterinaria">Medicina Veterinária</option>
+                        <option value="nutricao">Nutrição</option>
+                        <option value="pedagogia">Pedagogia</option>
+                        <option value="psicologia">Psicologia</option>
+                        <option value="publicidade-propaganda">Publicidade e Propaganda</option>
+                        <option value="quimica">Química</option>
+                        <option value="relacoes-internacionais">Relações Internacionais</option>
+                        <option value="sistemas-informacao">Sistemas de Informação</option>
+                    </select>
+                </div>
+                
+                <div class="con_input"> 
+                    <span class="material-symbols-outlined">
+                    schedule
+                    </span>
+                    <select id="semestre" name="semestre" required>
+                        <option value="semestre" disabled selected>Período/Semestre</option>
+                        <option value="1_semestre">1º Semestre</option>
+                        <option value="2_semestre">2º Semestre</option>
+                        <option value="3_semestre">3º Semestre</option>
+                        <option value="4_semestre">4º Semestre</option>
+                        <option value="5_semestre">5º Semestre</option>
+                        <option value="6_semestre">6º Semestre</option>
+                        <option value="7_semestre">7º Semestre</option>
+                        <option value="8_semestre">8º Semestre</option>
+                        <option value="9_semestre">9º Semestre</option>
+                        <option value="10_semestre">10º Semestre</option>
+                    </select>
+                </div>
 
                 <button class="btn_confirmar" type="submit">CONFIRMAR INSCRIÇÃO</button>
         </div>
