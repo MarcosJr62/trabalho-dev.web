@@ -71,7 +71,6 @@ button {
   font-weight: bold;
   border-radius: 8px;
   font-size: 14px;
-
 }
 
 button:hover {
@@ -79,12 +78,17 @@ button:hover {
 }
 
 footer {
-  margin-top: 20px;
-  align-items: center;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
 }
 
- /* MEDIA QUERIES  */
+footer img {
+  width: 220px;
+  height: auto;
+}
 
+/* media query*/
 @media (max-width: 768px) {
   .div_login {
     width: 80%;
@@ -98,6 +102,10 @@ footer {
 
   .info input {
     font-size: 13px;
+  }
+
+  footer img {
+    width: 100px;
   }
 }
 
@@ -123,5 +131,9 @@ footer {
 
   .info {
     padding: 6px 8px;
+  }
+
+  footer img {
+    width: 90px;
   }
 }
