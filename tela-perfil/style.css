@@ -1,14 +1,14 @@
 * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box; /* Adicionado para melhor controle de layout */
+            box-sizing: border-box; 
             font-family: "Inter", sans-serif;
         }
 
         body {
             display: flex;
-            flex-direction: column; /* Faz os itens empilharem verticalmente */
-            min-height: 100vh; /* Garante que o body ocupe a altura toda da tela */
+            flex-direction: column; 
+            min-height: 100vh;
             background-color: var(--cor-fundo);
         }
 
@@ -18,7 +18,7 @@
             background-color: #4A6133;
             display: flex;
             align-items: center;
-            flex-shrink: 0; /* Impede que o header encolha */
+            flex-shrink: 0; 
         }
 
         .logo_univille {
