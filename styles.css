@@ -8,7 +8,7 @@ body {
     height: 100vh; 
     display: flex;
     flex-direction: column;
-    background: url(/tela-inicial/image/fundo_univille.png);
+    background: url(/image/fundo_univille.png);
     background-size: cover;
     background-position:center 25%; 
 }
