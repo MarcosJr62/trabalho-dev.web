@@ -14,7 +14,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid white;
   border-radius: 12px;
-  padding: 60px 30px 30px;
+  padding: 100px 30px 90px;
   width: 350px;
   text-align: center;
   backdrop-filter: blur(10px);
@@ -23,18 +23,19 @@ body {
 
 .icone-usuario {
   position: absolute;
-  top: 140px;
+ 
+  bottom: 375px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .icone-usuario img {
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: white;
   padding: 5px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgb(255, 255, 255);
 }
 
 .info {
@@ -45,6 +46,7 @@ body {
   border-radius: 8px;
   padding: 8px 10px;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .info input {
@@ -61,6 +63,7 @@ body {
   gap: 5px;
   margin-bottom: 20px;
   font-size: 14px;
+  margin-top: 25px;
 }
 
 button {
@@ -71,6 +74,7 @@ button {
   font-weight: bold;
   border-radius: 8px;
   font-size: 14px;
+  margin-top: 30px;
 }
 
 button:hover {
