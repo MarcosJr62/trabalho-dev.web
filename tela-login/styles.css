@@ -1,46 +1,44 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
-
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #f4ede8, #96a085);
-}
-
-.div_tela_login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: linear-gradient(to bottom left, #96a085, #f4ede8);
+  font-family: "Inter", sans-serif;
 }
 
 .div_login {
-  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
   border: 1px solid white;
   border-radius: 10px;
-  padding: 30px;
-  width: 300px;
+  padding: 60px 30px 30px; /* espaço para o ícone */
+  width: 350px;
   text-align: center;
   backdrop-filter: blur(10px);
+}
+
+.icone-usuario {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .icone-usuario img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  background: white;
+  padding: 5px;
 }
 
 .info {
   margin-bottom: 15px;
 }
 
-.input-group input {
+.info input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -74,6 +72,4 @@ button:hover {
 
 footer {
   margin-top: 20px;
-  display: flex;
-  gap: 20px;
 }
