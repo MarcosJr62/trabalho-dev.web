@@ -11,7 +11,7 @@
 <body>
     <!-- header para as telas -->
     <header>
-        <img class="logo_univille" src="/tela-inicial/image/logo_univille.png" alt="Logo Univille">
+        <img class="logo_univille" src="/image/logo_univille.png" alt="Logo Univille">
         <div class="header_titles">
             <a class="pages_link" href="/index.html">Início</a>
             <a class="pages_link" href="/tela-sobre/index.html">Sobre</a>
@@ -21,8 +21,8 @@
             <a class="pages_link" href="/tela - Meu espaço/index.html">Meu Espaço</a>
         </div>
         <div class="buttoms">
-            <button class="btn_header">Login</button>
-            <button class="btn_header">Inscreva-se</button>
+            <a href="" class="btn_header">Login</a>
+            <a href="/tela-inscreva-se/index.html" class="btn_header">Inscreva-se</a>
         </div>
     </header>
     
@@ -35,7 +35,7 @@
                 <input id="email" name="email" type="email" placeholder="E-mail" required>
                 <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000" required>
                 <select id="curso" name="curso" required>
-                    <option value="" disabled selected>Curso</option>
+                    <option value="curso" disabled selected>Curso</option>
                     <option value="administracao">Administração</option>
                     <option value="ads">Análise e Desenvolvimento de Sistemas</option>
                     <option value="arq-urb">Arquitetura e Urbanismo</option>
@@ -85,7 +85,7 @@
                     <option value="10_semestre">10º Semestre</option>
                 </select>
 
-                <button type="submit">CONFIRMAR INSCRIÇÃO</button>
+                <button class="btn_confirmar" type="submit">CONFIRMAR INSCRIÇÃO</button>
         </div>
      </div>
     
