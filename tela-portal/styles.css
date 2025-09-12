@@ -285,3 +285,125 @@ padding-bottom: 5px;
   font-weight: 400;
 }
 
+/* Resumo acadêmico */
+.box p {
+  font-size: 1.1rem;
+}
+
+.resumo-item {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.resumo-item:last-child {
+  border-bottom: none;
+}
+
+/* Próximos eventos e novidades */
+.box p {
+  color: #555;
+}
+
+.eventos-item {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #dbebc93f;
+  cursor: pointer;
+}
+
+.eventos-item:last-child {
+  border-bottom: none;
+}
+
+.novidades-item {
+  display: flex;
+  justify-content: space-between;
+  color: #084c61;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #d8efff;
+  cursor: pointer;
+}
+
+.novidades-item:last-child {
+  border-bottom: none;
+}
+
+.novidades1-item {
+  display: flex;
+  justify-content: space-between;
+  color: #005e08;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background: #22c55e33;
+  cursor: pointer;
+}
+
+.novidades1-item:last-child {
+  border-bottom: none;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding: 15px 20px;
+  }
+
+  .container {
+    padding: 0 15px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circulo {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  .welcome h2 {
+    font-size: 1.3rem;
+  }
+}
+
+
