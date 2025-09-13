@@ -309,6 +309,26 @@ padding-bottom: 5px;
   border-bottom: none;
 }
 
+.cor {
+  font-weight: bold;
+}
+
+.cor.media {
+  color: #000000;
+}
+
+.cor.frequencia {
+  color: #00B215;
+}
+
+.cor.semestre {
+  color: #000000;
+}
+
+.cor.progresso {
+  color: #0092FA;
+}
+
 /* Próximos eventos e novidades */
 .box p {
   color: #555;
@@ -405,5 +425,6 @@ padding-bottom: 5px;
     font-size: 1.3rem;
   }
 }
+
 
 
