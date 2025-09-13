@@ -14,12 +14,17 @@ body {
 
 .header {
     width: 100%;
-    background-color: #5D7A3D;
+    height: 100px;
+    background-color: #4A6133;
     color: #fff;
     display: flex;
     align-items: center;
     padding: 10px 20px;
     gap: 20px;
+}
+
+.title {
+    margin-left: 10px;
 }
 
 .logo {
