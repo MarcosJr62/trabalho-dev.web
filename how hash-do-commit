@@ -1,0 +1,103 @@
+[33m66b033b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m mudando a cor e o tamanho do header meu espaço
+[33m04f5c29[m ajuste header curso
+[33m7ab3610[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33me834b16[m linkando a página de perfil com outras e modificações no header da tela meu espaço
+[33mb3d44fe[m header novo da tela-cursos  e responsividade da header
+[33m5c0afe4[m Tela-login  de finalizada
+[33m123242e[m arrumando image da tela login e a responsividade
+[33m90d6ab9[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m81aa131[m mudanças no style da tela login
+[33mfdbc0d8[m atualizando o header da tela perfil: colocando responsividade
+[33m2b79a45[m Atualizando o header da tela sobre
+[33m08fa8bd[m Adicionado ícones nos inputs e selects do formulário de inscrição
+[33m3a70bbf[m Estilização do formulário de inscrição: input, select, button, container
+[33m6f56c20[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33ma987750[m Reponsividade na Tela inicial
+[33mf326e73[m mudança na style e na estrutura da tela-login
+[33m85b38bf[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33mbda5d00[m algumas alterações na tela-cursos e inicio da tela-login
+[33mf7629a3[m Responsividade feita
+[33m0c636ef[m Atualizado ícones
+[33m4555732[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m8e2029d[m Update README.md
+[33m679cea9[m header linkado com as outras páginas
+[33m28b9a8a[m Finalizado a área de Documentos
+[33mc4e3aab[m responsividade
+[33m5e9720a[m seção próximos eventos e novidades - css
+[33m7c967f3[m seção próximos eventos e novidades - html
+[33mb2daca0[m seção resumo acadêmico - css
+[33m8393a57[m seção resumo acadêmico - html
+[33mb9ea132[m tela inicial removida da pasta tela-inicial e deixada como tela central
+[33m57d092a[m Add files via upload
+[33m2b9dc90[m seção comunicados e mural de recados - css
+[33mda9201c[m se
+[33m1724f71[m Inicializando o formulário de inscrição
+[33mebb9c56[m Adiciona tela de inscrição com criação de background e container principal
+[33m00572bf[m Atualiza links de navegação no cabeçalho da tela inicial
+[33m1f557b5[m seção agenda - css
+[33mf30706d[m seção agenda html
+[33m1aa5cfa[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m61e7c81[m Tela Inicial Finalizada: Header, Título, Texto, Icones, Infos
+[33mfc30bdf[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m1bd42d0[m Fazendo a área de documentos
+[33md74ebfb[m Finalizada a Tela Inicial
+[33m657d0d2[m Finalizada a Tela Inicial: Header, título, texto, ícones e informações
+[33m368d0ad[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m9eaad20[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m831808d[m Guia de estilo
+[33m37b2f4a[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m033c482[m responsividade
+[33m889d920[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33mbce31a6[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33mdfe70e4[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m5436f0f[m Tornando a tela responsiva - style
+[33mdff1d75[m Feito a área de contatos
+[33m0f9b1b2[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m64ccd57[m guia de estilo
+[33mc114311[m Feito a área de Contatos
+[33m818b6e9[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m87b0e03[m Arrumando topo das cards dos cursos
+[33ma9c3f63[m Update README.md
+[33m961e4ed[m css completo
+[33me0fce9f[m adicionar seção de eventos e fechar estrutura HTML
+[33m3981c7d[m adicionar demais cards de matérias
+[33m93376cd[m iniciar seção de matérias + primeiro card
+[33mea51e72[m adicionar header (logo, busca e usuário)
+[33m1d1ed8a[m Update index.html
+[33mcfbead6[m Alguns ajustes nas posicições dos cards
+[33m53807fd[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m2bec4de[m estrurando e estilizando os cards dos cursos
+[33m0864eae[m Iniciado a parte de informações de contato
+[33m0240faa[m botão de envio
+[33med25f1e[m estrutura do formulário
+[33m94c3356[m estrutura de 'bem vindo' e cards
+[33md243381[m continuação das alterações no index e no style da tela-curso
+[33m42307ea[m Alteração no index e no style da tela-cuso
+[33m179f5bc[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33md949c8e[m meio da tela inicial: título, botões e início das infos
+[33m17c977a[m Seção Valores style e index
+[33mace17b0[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33ma4e40cb[m Seção Missão e Visão style e index
+[33m3842414[m Seção História style e index
+[33m777156a[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33mde649df[m conteúdo principal (main + section) style e index
+[33m20c44ec[m Estrutura do conteúdo principal style e index
+[33m7e82289[m Barra superior fixa com logo e menu style
+[33md37bbfd[m Merge branch 'main' of https://github.com/MarcosJr62/trabalho-dev.web
+[33m44ea1d2[m Barra superior fixa com logo e menu
+[33m5dff908[m Iniciado a seção de informações da acadêmicas na página perfil
+[33mf1be361[m cabeçalho e logo
+[33m3b3367e[m adicionando a pasta image com a logo
+[33mc7683a6[m começando tela Meu espaço
+[33m4bb5802[m Delete Commit 1 directory
+[33m5483071[m começando a tela Meu espaço
+[33m1e6c1e7[m Iniciado página Meu Perfil - Matthäus
+[33mc93e796[m começando a tela portal
+[33m94180de[m começando a tela sobre
+[33m55c4733[m começando a tela contato
+[33m8ea3aa5[m começando a tela cursos
+[33m6167c8f[m começando a tela inicial
+[33m707e9de[m arrumando body
+[33m5b09049[m header
+[33m31963c4[m Update README.md
+[33m602c489[m Initial commit
