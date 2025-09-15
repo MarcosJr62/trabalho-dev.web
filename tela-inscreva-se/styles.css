@@ -253,3 +253,105 @@ input::placeholder {
 .btn_confirmar:hover {
     background-color: #3a4b2e;
 }
+
+/* ---------------- Responsividade Geral ---------------- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+
+    .buttoms {
+        width: 35%;
+        gap: 12px;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    input, select {
+        font-size: 15px;
+        height: 55px;
+    }
+
+    .btn_confirmar {
+        width: 60%;
+        height: 55px;
+        font-size: 16px;
+    }
+}
+
+/* Tablets pequenos e smartphones grandes */
+@media (max-width: 768px) {
+
+    .buttoms {
+        width: 60%;
+        margin: 15px auto;
+        gap: 10px;
+    }
+
+
+    .container {
+        width: 70%;
+        height: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input, select {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .btn_confirmar {
+        width: 70%;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+
+    .buttoms {
+        width: 80%;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px auto;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .con_input {
+        width: 90%;
+    }
+
+    input, select {
+        height: 45px;
+        font-size: 14px;
+        padding-left: 40px;
+    }
+
+    .btn_confirmar {
+        width: 80%;
+        height: 45px;
+        font-size: 14px;
+    }
+}
