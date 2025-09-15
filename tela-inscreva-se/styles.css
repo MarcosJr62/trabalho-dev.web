@@ -254,9 +254,8 @@ input::placeholder {
     background-color: #3a4b2e;
 }
 
-/* ---------------- Responsividade Geral ---------------- */
+/* ---------------- Responsividade container formulário ---------------- */
 
-/* Tablets e telas médias */
 @media (max-width: 1024px) {
 
     .buttoms {
@@ -284,7 +283,6 @@ input::placeholder {
     }
 }
 
-/* Tablets pequenos e smartphones grandes */
 @media (max-width: 768px) {
 
     .buttoms {
@@ -317,7 +315,6 @@ input::placeholder {
     }
 }
 
-/* Smartphones pequenos */
 @media (max-width: 480px) {
 
     .buttoms {

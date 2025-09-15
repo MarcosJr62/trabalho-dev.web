@@ -45,8 +45,8 @@ header {
     justify-content: center;      
     align-items: center;          
     gap: 10px;                   
-    width: auto; 
     max-width: 400px;
+    width: 30%;
 }
 
 .btn_header {
