@@ -2,7 +2,7 @@
 
 Autores:
 Raphael Rodrigues
-Marcos Viniccius
+Marcos Vinicius
 Guilherme Karnopp
 Marcos Rogerio
 João Nasario
