@@ -1,41 +1,41 @@
-    <!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Meu Espaço - Minhas matérias</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="icon" href="../image/favicon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> 
-    </head>
-    <body>
-        <header class="header">
-            <div class="logo">
-                <a href="../index.html"><img src="../image/logo_univille.png" alt="Univille Logo" /></a>
-                
-                <span class="title">Meu Espaço</span> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu Espaço - Minhas matérias</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> 
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../image/logo_univille.png" alt="Univille Logo" /></a>
+            <span class="title">Meu Espaço</span> 
+        </div>
+        <div class="search-bar">
+            <div class="input">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="Buscar disciplinas, materiais..." />
             </div>
-            <div class="search-bar">
-                <div class="input">
-                    <span class="material-symbols-outlined">search</span>
-                    <input type="search" placeholder="Buscar disciplinas, materiais..." />
-                </div>
-            </div>
-            <div class="header-right">
-                <button class="notification-btn" aria-label="Notificações">
-                    <i class="fas fa-bell"></i><span class="notification-count">3</span>
-                </button>
-                    <a style="text-decoration: none" href="../tela-perfil/index.html"><div class="circulo">JS</div></a>
-                    <a style="text-decoration: none; color:white" href="../tela-perfil/index.html"><span class="user-name">João Silva</span></a>
-            </div>
-        </header>
+        </div>
+        <div class="header-right">
+            <button class="notification-btn" aria-label="Notificações">
+                <i class="fas fa-bell"></i><span class="notification-count">3</span>
+            </button>
+            <a href="../tela-perfil/index.html" class="circulo">JS</a>
+            <a href="../tela-perfil/index.html" class="user-name">João Silva</a>
+        </div>
+    </header>
+    
+    <main class="container">
         
-        <main class="container">
-            <section class="subjects">
-                <h2>Minhas matérias</h2>
-
+        <section class="subjects">
+            <h2 class="title">Minhas matérias</h2> 
+            <div class="subject-grid">
                 <div class="subject-card">
                     <div class="subject-header">
                         <h3>Algoritmos e Programação</h3>
@@ -43,9 +43,9 @@
                     </div>
                     <p class="code">APC_II - 144-2BN</p>
                     <ul class="info-list">
-                        <li> <i class="fas fa-clock"></iclass></i> Qui/Sex 20:50-22:30</li>
-                        <li> <i class="fas fa-person"></iclass></i> Prof. Rogério</li>
-                        <li> <i class="fas fa-calendar"></iclass></i>Próxima aula: Quinta, 04/09</li>
+                        <li><i class="fas fa-clock"></i> Qui/Sex 20:50-22:30</li>
+                        <li><i class="fas fa-user"></i> Prof. Rogério</li>
+                        <li><i class="fas fa-calendar"></i> Próxima aula: Quinta, 04/09</li>
                     </ul>
                     <div class="buttons">
                         <button>Disco Virtual</button>
@@ -53,16 +53,17 @@
                     </div>
                     <button class="other-functions">Outras funcionalidades</button>
                 </div>
-                            <div class="subject-card">
+
+                <div class="subject-card">
                     <div class="subject-header">
                         <h3>Desenvolvimento Web</h3>
                         <span class="grade green">Média: 7.5</span>
                     </div>
                     <p class="code">APC_II - 144-2BN</p>
                     <ul class="info-list">
-                        <li> <i class="fas fa-clock"></iclass></i> Seg/Qua 18:55-20:30</li>
-                        <li> <i class="fas fa-person"></iclass></i> Prof. José Raul</li>
-                        <li> <i class="fas fa-calendar"></iclass></i> Próxima aula: Quarta, 03/09</li>
+                        <li><i class="fas fa-clock"></i> Seg/Qua 18:55-20:30</li>
+                        <li><i class="fas fa-user"></i> Prof. José Raul</li>
+                        <li><i class="fas fa-calendar"></i> Próxima aula: Quarta, 03/09</li>
                     </ul>
                     <div class="buttons">
                         <button>Disco Virtual</button>
@@ -78,9 +79,9 @@
                     </div>
                     <p class="code">APC_II - 144-2BN</p>
                     <ul class="info-list">
-                        <li> <i class="fas fa-clock"></iclass></i>  Qua/Qui 20:50-22:30 e 18:55-20:30</li>
-                        <li> <i class="fas fa-person"></iclass></i> Prof. Dornel</li>
-                        <li> <li> <i class="fas fa-calendar"></iclass></i> Próxima aula: Quarta, 03/09</li>
+                        <li><i class="fas fa-clock"></i> Qua/Qui 20:50-22:30 e 18:55-20:30</li>
+                        <li><i class="fas fa-user"></i> Prof. Dornel</li>
+                        <li><i class="fas fa-calendar"></i> Próxima aula: Quarta, 03/09</li>
                     </ul>
                     <div class="buttons">
                         <button>Disco Virtual</button>
@@ -89,6 +90,7 @@
                     <button class="other-functions">Outras funcionalidades</button>
                 </div>
 
+        
                 <div class="subject-card">
                     <div class="subject-header">
                         <h3>Estatística Computacional</h3>
@@ -96,9 +98,9 @@
                     </div>
                     <p class="code">APC_II - 144-2BN</p>
                     <ul class="info-list">
-                        <li>  <i class="fas fa-clock"></iclass></i>  Seg/Ter 20:50-22:30</li>
-                        <li> <i class="fas fa-person"></iclass></i> Prof. Priscila</li>
-                        <li> <li> <i class="fas fa-calendar"></iclass></i>  Próxima aula: Segunda, 08/09</li>
+                        <li><i class="fas fa-clock"></i> Seg/Ter 20:50-22:30</li>
+                        <li><i class="fas fa-user"></i> Prof. Priscila</li>
+                        <li><i class="fas fa-calendar"></i> Próxima aula: Segunda, 08/09</li>
                     </ul>
                     <div class="buttons">
                         <button>Disco Virtual</button>
@@ -106,42 +108,41 @@
                     </div>
                     <button class="other-functions">Outras funcionalidades</button>
                 </div>
-            </section>
-            
-            <aside class="events">
-                <h2>Próximos Eventos</h2>
+            </div>
+        </section>
+        
+        <aside class="events">
+            <h2>Próximos Eventos</h2>
 
-                <div class="event-card">
-                    <div class="event-type prova">PROVA</div>
-                    <p><strong>Prova P2 - Algoritmos</strong></p>
-                    <p>Algoritmos e Programação</p>
-                    <p><strong>DATA: 11/09 20:50-22:30</strong></p>
-                </div>
-                <div class="event-card">
-                    <div class="event-type work">TRABALHO</div>
-                    <p>Entrega do Trabalho</p>
-                    <p>Desenvolvimento Web</p>
-                    <p><strong>DATA: 12/09 20:50-22:30</strong></p>
-                </div>
-                <div class="event-card">
-                    <div class="event-type class">AULA</div>
-                    <p>Aula Prática - Lab</p>
-                    <p>Banco de Dados</p>
-                    <p><strong>DATA: 20/09 20:50-22:30</strong></p>
-                </div>
-                <div class="event-card">
-                    <div class="event-type work">TRABALHO</div>
-                    <p>Seminário - Ética</p>
-                    <p>Ética e Sociedade</p>
-                    <p><strong>DATA: 20/09 20:50-22:30</strong></p>
-                </div>
+            <div class="event-card">
+                <div class="event-type prova">PROVA</div>
+                <p><strong>Prova P2 - Algoritmos</strong></p>
+                <p>Algoritmos e Programação</p>
+                <p><strong>DATA: 11/09 20:50-22:30</strong></p>
+            </div>
+            <div class="event-card">
+                <div class="event-type work">TRABALHO</div>
+                <p>Entrega do Trabalho</p>
+                <p>Desenvolvimento Web</p>
+                <p><strong>DATA: 12/09 20:50-22:30</strong></p>
+            </div>
+            <div class="event-card">
+                <div class="event-type class">AULA</div>
+                <p>Aula Prática - Lab</p>
+                <p>Banco de Dados</p>
+                <p><strong>DATA: 20/09 20:50-22:30</strong></p>
+            </div>
+            <div class="event-card">
+                <div class="event-type work">TRABALHO</div>
+                <p>Seminário - Ética</p>
+                <p>Ética e Sociedade</p>
+                <p><strong>DATA: 20/09 20:50-22:30</strong></p>
+            </div>
 
-                <a href="#" class="view-all">Ver todos os eventos →</a>
-            </aside>
-        </main>
-    </body>
-    </html>
+            <hr style="border-top: 1px solid #ccc">
 
-
-
-
+            <a href="#" class="view-all">Ver todos os eventos →</a>
+        </aside>
+    </main>
+</body>
+</html>
